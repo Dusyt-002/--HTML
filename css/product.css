@@ -1,0 +1,418 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 3px solid #d9232e;
+}
+header .head {
+  padding-top: 27px;
+  height: 127px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+header .head .headleft {
+  width: 61px;
+  height: 75px;
+  float: left;
+  margin-top: 4px;
+}
+header .head .headright {
+  float: right;
+}
+header .head .headright .versionswitchingwrap {
+  width: 104px;
+  float: right;
+}
+header .head .headright .versionswitchingwrap .versionswitching {
+  width: 73px;
+  height: 18px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  float: left;
+  padding-bottom: 6px;
+}
+header .head .headright .versionswitchingwrap .versionswitching .versions {
+  width: 73px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  color: #666;
+  border: 0;
+  outline: none;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+header .head .headright .versionswitchingwrap .versionswitching img {
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  z-index: 3;
+}
+header .head .headright .versionswitchingwrap .versionswitching ol {
+  width: 104px;
+  background-color: #fff;
+  padding: 20px 12px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 5;
+  display: none;
+  transition: 1s all linear;
+}
+header .head .headright .versionswitchingwrap .searchwrap {
+  float: right;
+  width: 12px;
+  height: 13px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+header .head .headright .versionswitchingwrap .searchwrap input {
+  width: 12px;
+  height: 13px;
+  background: url(../image/02.png) no-repeat;
+  background-size: 100%;
+  border: 0;
+}
+header .head .headright .pc_nav ol.navigation {
+  width: auto;
+  height: 44px;
+  margin-top: 56px;
+}
+header .head .headright .pc_nav ol.navigation li {
+  float: left;
+  margin-right: 53px;
+  padding-bottom: 20px;
+}
+header .head .headright .pc_nav ol.navigation li:first-child a {
+  color: red;
+}
+header .head .headright .pc_nav ol.navigation li:last-child {
+  margin-right: 0;
+}
+header .head .headright .pc_nav ol.navigation li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+header .head .headright .pc_nav .nav_line {
+  left: 743px;
+  width: 32px;
+  opacity: 1;
+  height: 3px;
+  background: #d10709;
+}
+header div .subnav {
+  height: 126px;
+}
+header div .subnav .navlistwrap {
+  border-top: 1px solid #ccc;
+  border-bottom: 0;
+  margin-top: 4px;
+}
+header div .subnav .navlistwrap .navlist {
+  padding-top: 38px;
+}
+header div .subnav .navlistwrap .navlist a.navlis {
+  width: 171.42px;
+  height: 87px;
+  float: left;
+  text-align: center;
+}
+header div .subnav .navlistwrap .navlist a.navlis img.showimg {
+  max-width: 28px;
+  height: 23px;
+  margin: 0 auto;
+  display: block;
+}
+header div .subnav .navlistwrap .navlist a.navlis img.hideimg {
+  display: none;
+  max-width: 28px;
+  height: 23px;
+  margin: 0 auto;
+}
+header div .subnav .navlistwrap .navlist a.navlis:first-child img.showimg {
+  display: none;
+}
+header div .subnav .navlistwrap .navlist a.navlis:first-child img.hideimg {
+  display: block;
+}
+header div .subnav .navlistwrap .navlist a.navlis:first-child .navcaption {
+  color: red;
+}
+header div .subnav .navlistwrap .navlist a.navlis .navcaption {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+header div .subnav .navlistwrap .navlist a.navlis:first-child:after {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 3px;
+  background: #d10709;
+  margin: 24px auto 0;
+}
+header div .bannerwrap {
+  margin-top: 1px;
+}
+header div .bannerwrap .swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+header div .bannerwrap .swiper-container .swiper-wrapper {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+header div .bannerwrap .swiper-container .swiper-wrapper .swiper-slide {
+  box-sizing: content-box;
+  float: left;
+}
+header div .bannerwrap .swiper-container .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+}
+header div .mainpush {
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+header div .mainpush .mainpushlist {
+  width: 49%;
+  height: 591px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+header div .mainpush .mainpushlist:first-child {
+  margin-right: 2%;
+}
+header div .mainpush .mainpushlist a img.mainpushimg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+header div .mainpush .mainpushlist .mplistlayout {
+  width: 211px;
+  position: absolute;
+  top: 80px;
+  right: 64px;
+}
+header div .mainpush .mainpushlist .mplistlayout .mptitle {
+  width: 211px;
+  font-size: 30px;
+  color: #000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+header div .mainpush .mainpushlist .mplistlayout .mpthems {
+  width: 201px;
+  height: 40px;
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 16px;
+}
+header div .mainstreamwrap {
+  background: #f9f9f9;
+  padding: 91px 0 109px;
+}
+header div .mainstreamwrap .mainstream {
+  margin: 0 0 56px 0px;
+  overflow: hidden;
+}
+header div .mainstreamwrap .mainstream .msimg {
+  width: 596px;
+  height: 396px;
+  float: left;
+  overflow: hidden;
+}
+header div .mainstreamwrap .mainstream .msimg a img {
+  width: 100%;
+  display: block;
+}
+header div .mainstreamwrap .mainstream .mscon {
+  width: 326px;
+  float: left;
+  margin-left: 37px;
+  margin-top: 72px;
+}
+header div .mainstreamwrap .mainstream .mscon a.mstitle {
+  display: block;
+  width: 326px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 30px;
+  color: #000;
+}
+header div .mainstreamwrap .mainstream .mscon .msthems {
+  width: 326px;
+  height: 95px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+header div .mainstreamwrap .mainstream .mscon a.morebase {
+  width: 178px;
+  height: 45px;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
+}
+header div .mainstreamwrap .mainstream .mscon a.morebase img.hideimg {
+  width: 178px;
+  height: 45px;
+  display: none;
+}
+header div .mainstreamwrap .mainstream .mscon a.morebase img.showimg {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header div .mainstreamwrap .mainstream .mscon a.morebase:hover img.hideimg {
+  display: block;
+}
+header div .mainstreamwrap .mainstream .mscon a.morebase:hover img.showimg {
+  display: none;
+}
+header div .mainstreamwrap .mslist {
+  width: 1000px;
+  margin: 0 auto;
+  border-top: 1px solid #e0e0e0;
+}
+header div .productvideo {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+header div .productvideo .productvid {
+  width: 600px;
+  height: 376px;
+  position: relative;
+  float: left;
+}
+header div .productvideo .productvid img.pvplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 94px;
+  height: 94px;
+  z-index: 3;
+  opacity: 0.7;
+}
+header div .productvideo .productvid img.pvbg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  max-height: 100%;
+}
+header div .productvideo .productvid #vid {
+  width: 600px;
+  height: 376px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+header div .productvideo .pvcon {
+  float: left;
+  width: 600px;
+  height: 376px;
+  background-color: #d9232e;
+  padding: 56px 0 0 71px;
+  box-sizing: border-box;
+}
+header div .productvideo .pvcon a.pvtitle {
+  font-size: 36px;
+  color: #fff;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+header div .productvideo .pvcon a.pvtag {
+  margin: 8px 0 29px;
+  font-size: 36px;
+  color: #fff;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+header div .productvideo .pvcon .pvthems {
+  width: 449px;
+  height: 48px;
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  line-height: 24px;
+}
+header div .productvideo .pvcon a.bglink {
+  width: 178px;
+  height: 45px;
+  display: block;
+  border: 1px solid #fff;
+  margin-top: 20px;
+}
+header div .productvideo .pvcon a.bglink:hover {
+  border: 1px solid #999999;
+}
+header div .productvideo .pvcon a.bglink img.hideimg {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header div .productvideo .pvcon a.bglink img.showimg {
+  width: 178px;
+  height: 45px;
+  display: none;
+}
+header div .productvideo .pvcon a.bglink:hover img.hideimg {
+  display: none;
+  border: none;
+}
+header div .productvideo .pvcon a.bglink:hover img.showimg {
+  display: block;
+  color: #095f8a;
+}
+header .footer {
+  width: 100%;
+  margin-top: 100px;
+  border-top: 2px solid #000;
+  padding: 38px 0 70px;
+}
+header .footer .footerleft {
+  float: left;
+}
+header .footer .footerleft .copyRight {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+}
+/*# sourceMappingURL=./product.css.map */

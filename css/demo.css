@@ -1,0 +1,528 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 3px solid #d9232e;
+}
+header .head {
+  padding-top: 27px;
+  height: 127px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+header .head .headleft {
+  width: 61px;
+  height: 75px;
+  float: left;
+  margin-top: 4px;
+}
+header .head .headright {
+  float: right;
+}
+header .head .headright .versionswitchingwrap {
+  width: 104px;
+  float: right;
+}
+header .head .headright .versionswitchingwrap .versionswitching {
+  width: 73px;
+  height: 18px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  float: left;
+  padding-bottom: 6px;
+}
+header .head .headright .versionswitchingwrap .versionswitching .versions {
+  width: 73px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  color: #666;
+  border: 0;
+  outline: none;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+header .head .headright .versionswitchingwrap .versionswitching img {
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  z-index: 3;
+}
+header .head .headright .versionswitchingwrap .versionswitching ol {
+  width: 104px;
+  background-color: #fff;
+  padding: 20px 12px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 5;
+  display: none;
+  transition: 1s all linear;
+}
+header .head .headright .versionswitchingwrap .searchwrap {
+  float: right;
+  width: 12px;
+  height: 13px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+header .head .headright .versionswitchingwrap .searchwrap input {
+  width: 12px;
+  height: 13px;
+  background: url(../image/02.png) no-repeat;
+  background-size: 100%;
+  border: 0;
+}
+header .head .headright .pc_nav ol.navigation {
+  width: auto;
+  height: 44px;
+  margin-top: 56px;
+}
+header .head .headright .pc_nav ol.navigation li {
+  float: left;
+  margin-right: 53px;
+  padding-bottom: 20px;
+}
+header .head .headright .pc_nav ol.navigation li:first-child a {
+  color: red;
+}
+header .head .headright .pc_nav ol.navigation li:last-child {
+  margin-right: 0;
+}
+header .head .headright .pc_nav ol.navigation li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+header .head .headright .pc_nav .nav_line {
+  left: 743px;
+  width: 32px;
+  opacity: 1;
+  height: 3px;
+  background: #d10709;
+}
+header .conten .brandintroduction {
+  width: 100%;
+  padding: 83px 0 82px;
+  background-image: url(../image/bg.png);
+  background-color: #f9f5f5;
+  background-repeat: no-repeat;
+  background-position: center 83px;
+  background-size: 446px 446px;
+}
+header .conten .brandintroduction .brandtitle {
+  font-size: 36px;
+  color: #ddd;
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+}
+header .conten .brandintroduction .brandtag {
+  font-size: 36px;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+header .conten .brandintroduction .brandthems {
+  width: 715px;
+  height: 54px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+  margin: 34px auto 29px;
+}
+header .conten .brandintroduction .brandthemssub {
+  width: 715px;
+  height: 84px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+header .conten .brandintroduction a.morebase {
+  width: 178px;
+  height: 45px;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
+}
+header .conten .brandintroduction a.morebase img.hideimg {
+  width: 178px;
+  height: 45px;
+  display: none;
+}
+header .conten .brandintroduction a.morebase img.showimg {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header .conten .brandintroduction a.morebase:hover img.hideimg {
+  display: block;
+}
+header .conten .brandintroduction a.morebase:hover img.showimg {
+  display: none;
+}
+header .conten .brandfounder {
+  width: 100%;
+  overflow: hidden;
+}
+header .conten .brandfounder .brandimages {
+  float: left;
+}
+header .conten .brandfounder .brandimages img {
+  display: block;
+  max-width: 100%;
+  height: 550px;
+}
+header .conten .brandfounder .bfmessagewrap {
+  width: 49%;
+  float: left;
+  height: 550px;
+  background-color: #d9232e;
+  padding: 39px 0 47px 80px;
+  box-sizing: border-box;
+}
+header .conten .brandfounder .bfmessagewrap .bftitle {
+  font-size: 36px;
+  color: #fff;
+  width: 100%;
+}
+header .conten .brandfounder .bfmessagewrap .bfname {
+  width: 100%;
+  margin: 40px 0 20px;
+  font-size: 18px;
+  color: #fff;
+}
+header .conten .brandfounder .bfmessagewrap .bfthems {
+  width: 87%;
+  font-size: 14px;
+  color: #fff;
+  height: 64px;
+  overflow: hidden;
+  line-height: 23px;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink {
+  width: 178px;
+  height: 45px;
+  display: block;
+  border: 1px solid #fff;
+  margin-top: 20px;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink:hover {
+  border: 1px solid #999999;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink img.hideimg {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink img.showimg {
+  width: 178px;
+  height: 45px;
+  display: none;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink:hover img.hideimg {
+  display: none;
+  border: none;
+}
+header .conten .brandfounder .bfmessagewrap a.bglink:hover img.showimg {
+  display: block;
+  color: #095f8a;
+}
+header .conten .history {
+  width: 100%;
+  margin: 100px 0;
+  overflow: hidden;
+}
+header .conten .history .gs_title {
+  font-size: 36px;
+  color: #ddd;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+header .conten .history .gs_tag {
+  color: #000;
+  margin: 10px 0 29px;
+  text-align: center;
+}
+header .conten .history .historylistwrap .history_list_wrap ol.historylist {
+  float: left;
+  width: 21%;
+  height: 437px;
+  border-right: 1px dashed #d6d6d6;
+}
+header .conten .history .historylistwrap .history_list_wrap ol.historylist li {
+  width: 178px;
+  height: 45px;
+  border: solid 1px #d6d6d6;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+  line-height: 45px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+header .conten .history .historylistwrap .history_list_wrap ol.historylist li:first-child {
+  background-color: #d9232e;
+  color: white;
+}
+header .conten .history .historylistwrap .historycon {
+  width: 78%;
+  padding-left: 83px;
+  box-sizing: border-box;
+  float: left;
+}
+header .conten .history .historylistwrap .historycon .historyyear {
+  width: 104px;
+  float: left;
+  color: #d9232e;
+}
+header .conten .history .historylistwrap .historycon .historyyear .year {
+  font-size: 48px;
+}
+header .conten .history .historylistwrap .historycon .historyyear .years {
+  font-size: 24px;
+}
+header .conten .history .historylistwrap .historycon .historyright {
+  float: left;
+  width: 690px;
+  margin-left: 59px;
+}
+header .conten .history .historylistwrap .historycon .historyright span {
+  display: block;
+  color: #666666;
+  line-height: 36px;
+}
+header .conten .history .historylistwrap .historycon .historyright .historylast {
+  font-size: 14px;
+  color: #666;
+  line-height: 36px;
+}
+header .conten .history .historylistwrap .historycon .historyright a.hislink {
+  width: 178px;
+  height: 45px;
+  display: block;
+  margin-top: 20px;
+}
+header .conten .history .historylistwrap .historycon .historyright a.hislink img.hideimg {
+  width: 178px;
+  height: 45px;
+  display: none;
+}
+header .conten .history .historylistwrap .historycon .historyright a.hislink img.showimg {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header .conten .history .historylistwrap .historycon .historyright a.hislink:hover img.hideimg {
+  display: block;
+}
+header .conten .history .historylistwrap .historycon .historyright a.hislink:hover img.showimg {
+  display: none;
+}
+header .designerteam {
+  position: relative;
+}
+header .designerteam .gs_title {
+  font-size: 36px;
+  color: #ddd;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+header .designerteam .gs_tag {
+  color: #000;
+  margin: 10px 0 29px;
+  text-align: center;
+}
+header .designerteam p.dt_thems {
+  width: 671px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #333;
+  margin: 36px auto 10px;
+  display: none;
+}
+header .designerteam p.dt_layout {
+  width: 671px;
+  text-align: center;
+  height: 45px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  margin: 0 auto 40px;
+}
+header .designerteam .swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 1010px;
+}
+header .designerteam .swiper-container .swiper-wrapper {
+  height: 336px;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide {
+  float: left;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide:hover .clearfix .teamlist .teammsg {
+  background: red;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide:hover .clearfix .teamlist .teammsg .teamname {
+  color: white;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide:hover .clearfix .teamlist .teammsg .teamform {
+  color: white;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist {
+  width: 251px;
+  overflow: hidden;
+  cursor: pointer;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist a {
+  display: block;
+  overflow: hidden;
+  width: 251px;
+  height: 251px;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist a img {
+  width: 251px;
+  height: 251px;
+  display: block;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist .teammsg {
+  width: 251px;
+  background-color: #f8f8f8;
+  padding: 24px 0 24px 20px;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist .teammsg .teamname {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+header .designerteam .swiper-container .swiper-wrapper .swiper-slide .clearfix .teamlist .teammsg .teamform {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #666;
+}
+header .designerteam .swiper-button-prev {
+  background-image: url(../image/btn.png);
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+  left: 0;
+  top: 358px;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  z-index: 10;
+  cursor: pointer;
+}
+header .designerteam .swiper-button-next {
+  right: 0;
+  background-image: url(../image/btn2.png);
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+  top: 358px;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  z-index: 10;
+  cursor: pointer;
+}
+header .brandculture {
+  margin-top: 100px;
+  width: 100%;
+  padding: 110px 0 0 100px;
+  background-color: #f9f5f5;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+header .brandculture .brandculturemsg {
+  float: left;
+}
+header .brandculture .brandculturemsg .gs_title {
+  font-size: 36px;
+  color: #ddd;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+header .brandculture .brandculturemsg .gs_tag {
+  color: #000;
+  margin: 10px 0 29px;
+  font-size: 36px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+header .brandculture .brandculturemsg p {
+  width: 406px;
+  /* height: 68px; */
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  overflow: hidden;
+}
+header .brandculture .brandculturemsg p.gs_thems {
+  margin-top: 16px;
+}
+header .brandculture .bcimages {
+  float: right;
+  width: 618px;
+}
+header .brandculture .bcimages a img {
+  display: block;
+  max-width: 618px;
+}
+header .footer {
+  width: 100%;
+  margin-top: 100px;
+  border-top: 2px solid #000;
+  padding: 38px 0 70px;
+}
+header .footer .footerleft {
+  float: left;
+}
+header .footer .footerleft .copyRight {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+}
+/*# sourceMappingURL=./demo.css.map */

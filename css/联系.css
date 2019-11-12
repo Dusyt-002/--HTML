@@ -1,0 +1,434 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 3px solid #d9232e;
+}
+header .head {
+  padding-top: 27px;
+  height: 127px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+header .head .headleft {
+  width: 61px;
+  height: 75px;
+  float: left;
+  margin-top: 4px;
+}
+header .head .headright {
+  float: right;
+}
+header .head .headright .versionswitchingwrap {
+  width: 104px;
+  float: right;
+}
+header .head .headright .versionswitchingwrap .versionswitching {
+  width: 73px;
+  height: 18px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  float: left;
+  padding-bottom: 6px;
+}
+header .head .headright .versionswitchingwrap .versionswitching .versions {
+  width: 73px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  color: #666;
+  border: 0;
+  outline: none;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+header .head .headright .versionswitchingwrap .versionswitching img {
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  z-index: 3;
+}
+header .head .headright .versionswitchingwrap .versionswitching ol {
+  width: 104px;
+  background-color: #fff;
+  padding: 20px 12px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 5;
+  display: none;
+  transition: 1s all linear;
+}
+header .head .headright .versionswitchingwrap .searchwrap {
+  float: right;
+  width: 12px;
+  height: 13px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+header .head .headright .versionswitchingwrap .searchwrap input {
+  width: 12px;
+  height: 13px;
+  background: url(../image/4/02.png) no-repeat;
+  background-size: 100%;
+  border: 0;
+}
+header .head .headright .pc_nav ol.navigation {
+  width: auto;
+  height: 44px;
+  margin-top: 56px;
+}
+header .head .headright .pc_nav ol.navigation li {
+  float: left;
+  margin-right: 53px;
+  padding-bottom: 20px;
+}
+header .head .headright .pc_nav ol.navigation li:first-child a {
+  color: red;
+}
+header .head .headright .pc_nav ol.navigation li:last-child {
+  margin-right: 0;
+}
+header .head .headright .pc_nav ol.navigation li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+header .head .headright .pc_nav .nav_line {
+  left: 743px;
+  width: 32px;
+  opacity: 1;
+  height: 3px;
+  background: #d10709;
+}
+header .globalstore {
+  width: 1200px;
+  margin: 0 auto;
+  border: solid 1px #e1e1e1;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+header .globalstore .globalleft {
+  width: 35%;
+  float: left;
+}
+header .globalstore .globalleft img {
+  width: 100%;
+  display: block;
+}
+header .globalstore .globalleft .leftbox {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: #d9232e;
+}
+header .globalstore .globalleft .leftbox .cooperation {
+  font-size: 48px;
+  line-height: 320px;
+  font-weight: bold;
+  color: #fff;
+}
+header .globalstore .globalleft .leftbox .peration {
+  font-size: 24px;
+  color: #f1eded;
+  word-break: break-word;
+}
+header .globalstore .globalright {
+  width: 52%;
+  float: left;
+  padding-left: 8%;
+}
+header .globalstore .globalright .right-item {
+  margin-top: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+header .globalstore .globalright .right-item div {
+  font-size: 16px;
+}
+header .globalstore .globalright .right-item div:first-child {
+  font-size: 20px;
+  font-weight: 550;
+  color: #d9232e;
+  margin-bottom: 10px;
+}
+header .development {
+  width: 400px;
+  margin: 100px auto 71px;
+  zoom: 1;
+  overflow: hidden;
+}
+header .development .shoplis {
+  background-color: #d9232e;
+  color: #fff;
+  font-weight: bold;
+}
+header .development .shoplis {
+  width: 178px;
+  height: 45px;
+  float: left;
+  margin-right: 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+  line-height: 45px;
+  text-align: center;
+  border: solid 1px #d5d5d5;
+  cursor: pointer;
+}
+header .development .chineshoplis {
+  width: 178px;
+  height: 45px;
+  float: left;
+  margin-right: 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+  line-height: 45px;
+  text-align: center;
+  border: solid 1px #d5d5d5;
+  cursor: pointer;
+}
+header .shoppersonwrap {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header .shoppersonwrap .shoppersonlist {
+  width: 368px;
+  float: left;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+header .shoppersonwrap .shoppersonlist .personcon {
+  width: 100%;
+  height: 285px;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  padding-top: 36px;
+}
+header .shoppersonwrap .shoppersonlist .personcon .shoppertop {
+  margin: 0px 0 20px 24px;
+  zoom: 1;
+}
+header .shoppersonwrap .shoppersonlist .personcon .shoppertop::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+header .shoppersonwrap .shoppersonlist .personcon .shoppertop img {
+  width: 18px;
+  display: block;
+  float: left;
+}
+header .shoppersonwrap .shoppersonlist .personcon .shoppertop div {
+  width: 210px;
+  float: left;
+  margin-left: 14px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666;
+  height: 48px;
+  overflow: hidden;
+}
+header .shoppersonwrap .shoppersonlist .personcon .presonline {
+  margin-bottom: 50px;
+  width: 35px;
+  height: 4px;
+  background-color: #d9232e;
+  margin-left: 58px;
+}
+header .shoppersonwrap .shoppersonlist .personcon .personmsg {
+  width: 287px;
+  margin-left: 30px;
+}
+header .shoppersonwrap .shoppersonlist .personcon .personmsg p {
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 24px;
+}
+header .shoppersonwrap .shoppersonlist .personcon .personmsg p :first-child {
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 24px;
+}
+header .supplierchannel {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+header .supplierchannel .sc_bg {
+  width: 100%;
+}
+header .supplierchannel .sc_bg img {
+  display: block;
+  width: 100%;
+}
+header .supplierchannel .suppliermsg {
+  width: 420px;
+  position: absolute;
+  top: 79px;
+  left: 80px;
+}
+header .supplierchannel .suppliermsg .gs_title {
+  font-size: 36px;
+  color: #ddd;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+header .supplierchannel .suppliermsg .gs_tag {
+  color: #000;
+  margin: 10px 0 29px;
+  font-size: 36px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+header .supplierchannel .suppliermsg .gs_msg {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+header .supplierchannel .gs_link {
+  margin-top: 28px;
+  width: 178px;
+  height: 45px;
+  display: block;
+  position: relative;
+  top: -300px;
+  left: 80px;
+}
+header .supplierchannel .gs_link :hover {
+  background: url(../image/6/04.png);
+  color: #ddd;
+}
+header .supplierchannel .gs_link .hideimg {
+  display: none;
+  width: 178px;
+}
+header .supplierchannel .gs_link .showimg {
+  display: block;
+}
+header .socialbox {
+  width: 1200px;
+  margin: 0 auto;
+}
+header .socialbox ::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+header .socialbox .recruitlis {
+  width: 48%;
+  display: block;
+  float: left;
+  background-color: #f7f7f7;
+  margin-bottom: 16px;
+  padding: 34px;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+header .socialbox .recruitlis .slogo {
+  width: 27px;
+  height: 34px;
+  float: left;
+  margin-top: 8px;
+}
+header .socialbox .recruitlis .slogo img {
+  max-width: 24px;
+  display: block;
+}
+header .socialbox .recruitlis .recruitmsg {
+  width: 70%;
+  float: left;
+  margin-left: 20px;
+}
+header .socialbox .recruitlis .recruitmsg .re_tag {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+header .socialbox .recruitlis .recruitmsg .re_title {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+header .socialbox .recruitlis .recruitmsg .re_title :hover {
+  color: #d9232e;
+}
+header .socialbox .recruitlis .recruitmsg .re_title span {
+  font-size: 14px;
+  color: #666;
+}
+header .socialbox .tansuo {
+  width: 178px;
+  height: 45px;
+  margin: 10px auto 0;
+  cursor: pointer;
+}
+header .socialbox .tansuo .tansuo1 {
+  width: 178px;
+  height: 45px;
+  display: block;
+}
+header .clearfix {
+  zoom: 1;
+  margin-top: 1000px;
+}
+header .clearfix ::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+header .footer {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-top: 2px solid #000;
+  padding: 38px 0 70px;
+}
+header .clearfix {
+  zoom: 1;
+  margin-top: 500px;
+}
+header .footerright {
+  float: right;
+  margin-top: 3px;
+}
+header .footerleft {
+  float: left;
+}
+header .footerleft .copyRight {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
